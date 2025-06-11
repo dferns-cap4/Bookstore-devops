@@ -29,7 +29,3 @@ async def create_book(book: BookCreate):
 @app.get("/books/", response_model=List[BookResponse])
 async def get_books():
     return fake_books_db
-
-@app.get("/health-check", response_model=HealthCheckResponse)
-async def healthCheck():
-    return HealthCheckResponse(message="Healthy")
