@@ -5,3 +5,4 @@ asyncpg
 pytest
 pytest-asyncio
 httpx
+pytest-cov
