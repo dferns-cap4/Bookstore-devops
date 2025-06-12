@@ -3,6 +3,7 @@
 
 #Python
 .pytest_cache
+app/__pycache__
 
 #Environement
 .virtualenv
