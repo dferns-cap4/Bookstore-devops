@@ -33,5 +33,5 @@ async def get_books():
 
 @app.get("/health-check/", response_model=HealthCheckResponse)
 async def healthCheck():
-    return HealthCheckResponse(message="Healthy")
+    return HealthCheckResponse(message="sick")
 #Added information
