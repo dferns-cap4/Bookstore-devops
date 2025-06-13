@@ -31,7 +31,7 @@ async def create_book(book: BookCreate):
 async def get_books():
     return fake_books_db
 
-@app.get("/health-check", response_model=HealthCheckResponse)
+@app.get("/health-check/", response_model=HealthCheckResponse)
 async def healthCheck():
     return HealthCheckResponse(message="Healthy")
 #Added information
